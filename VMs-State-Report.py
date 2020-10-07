@@ -8,7 +8,7 @@ import automationassets
 from azure.mgmt.compute import ComputeManagementClient
 import sendgrid
 from sendgrid.helpers.mail import *
-SENDGRID_APIKEY = 'This should your SendGrid API key'
+SENDGRID_APIKEY = 'This should be your SendGrid API key'
 
 def _send_report(sub, cont, to_e):
     # SendGrid now require sender verification - this from email must be verified by your SendGrid account 
